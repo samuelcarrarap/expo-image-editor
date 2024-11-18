@@ -59,10 +59,10 @@ function ControlBar() {
 
   return (
     <View style={styles.container}>
-      <IconButton iconID="arrow-back" text="Back" onPress={onPressBack} />
+      <IconButton iconID="arrow-back" text="Voltar" onPress={onPressBack} />
       <IconButton
         iconID="done"
-        text="Done"
+        text="Feito"
         onPress={onFinishEditing}
         disabled={shouldDisableDoneButton}
       />
